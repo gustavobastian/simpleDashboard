@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    
+}
+
+.header{
+    display:grid;
+    background: white;
+    grid-area: headerG;    
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+.sidebar{
+    display:grid;
+    background: rgb(135, 196, 236);    
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+}
+.mainContent{
+    display: grid;
+    background: rgb(185, 236, 234);
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+
+}
