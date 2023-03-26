@@ -302,7 +302,7 @@ hr {
 }
 .TrenLi{
     display:grid;
-    resize: both;
+    resize: both;    
 }
 
 .projects{
@@ -334,13 +334,17 @@ hr {
     grid-template-columns: 100%; 
     grid-template-rows: 100%;
     margin:10px;
+    background: bisque;
+    border-radius: 15px;
 }
 
 .projectCard{
     display: grid;
     resize: both;
     background: white;
-    width: 100%;
+    width: 80%;
     height: 100%;
-
+    margin-left: 10%;
+    padding-left: 10%;
+    border-radius: 0px 15px 15px 0px;
 }
