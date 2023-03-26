@@ -323,7 +323,7 @@ hr {
     display: grid;
     resize: both;
     grid-template-columns: 50% 50%; 
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 30% 30% 30% ;
     background: transparent;
     border-radius:5px ;    
 }
@@ -343,6 +343,8 @@ hr {
     grid:subgrid;
     grid-template-columns: 100%; 
     grid-template-rows: 100%;
+    padding-bottom: 12px;
+    padding-right: 10px;
 
 }
 .proTitle{
@@ -358,18 +360,31 @@ hr {
     font-size: 10px;
     margin-bottom: 20px;
 }
+.proIcons{
+    display: grid;
+    resize: both;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    grid-template-columns: 70% 10% 10% 10%;
+    grid-template-rows:100% ;    
+    padding-bottom: -10px;
+    
+}
 .iconClassPro{
     display: grid;
     resize: both;
-    font-size: 10px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    
+    
+    
 }
 
 .projectCard{
     display: grid;
     resize: both;
     background: white;
-    width: 900%;
+    width: 90%;
     height: 100%;
     margin-left: 5%;
     padding-left: 5%;
