@@ -1,10 +1,11 @@
 *{
     font-family: "Roboto",sans-serif;
+    height: VH;
 }
 .container{
     display: grid;
     width: 100%;
-    height: vh;
+    height: VH;
     grid-template-columns: 30% 70%;
     grid-template-rows: 20% 80%;
     
@@ -171,4 +172,10 @@ button{
     border-radius: 35px;
     border-style: solid;
     border-color: white;
+}
+.mainContent{
+    margin-top: 10px;
+    display: grid;
+    resize: both;
+    grid-template-columns: 80% 20%;
 }
