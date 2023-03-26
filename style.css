@@ -1,12 +1,13 @@
 *{
     font-family: "Roboto",sans-serif;
-    height: VH;
+    
+    height: min(800px,VH);       
 }
 .container{
     display: grid;
     resize: both;
     width: 1200px;       
-    height: 800px;       
+    height: min(800px,VH);       
     grid-template-columns: 30% 70%;
     grid-template-rows: 20% 80%;
     
