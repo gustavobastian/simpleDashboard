@@ -334,17 +334,46 @@ hr {
     grid-template-columns: 100%; 
     grid-template-rows: 100%;
     margin:10px;
-    background: bisque;
+    background: rgb(247, 195, 131);
     border-radius: 15px;
+}
+.projectCard{
+    display: grid;
+    resize: both;
+    grid:subgrid;
+    grid-template-columns: 100%; 
+    grid-template-rows: 100%;
+
+}
+.proTitle{
+    display: grid;
+    resize: both;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.proText{
+    display: grid;
+    resize: both;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.iconClassPro{
+    display: grid;
+    resize: both;
+    font-size: 10px;
+    margin-bottom: 20px;
 }
 
 .projectCard{
     display: grid;
     resize: both;
     background: white;
-    width: 80%;
+    width: 900%;
     height: 100%;
-    margin-left: 10%;
-    padding-left: 10%;
+    margin-left: 5%;
+    padding-left: 5%;
     border-radius: 0px 15px 15px 0px;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 70% 10%;
 }
