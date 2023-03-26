@@ -1,7 +1,7 @@
 *{
     font-family: "Roboto",sans-serif;
     
-    height: min(800px,VH);       
+    height: max(800px,VH);       
 }
 .container{
     display: grid;
@@ -304,7 +304,22 @@ hr {
     display:grid;
     resize: both;
 }
+
+.projects{
+    display: grid;
+    resize: both;     
+    grid-template-columns: 100%; 
+    grid-template-rows: 10% 90%; 
+}
+
 .ProjectList{
+    display: grid;
+    resize: both;     
+    grid-template-columns: 100%; 
+    grid-template-rows: 100%; 
+}
+
+.ProUl{
     display: grid;
     resize: both;
     grid-template-columns: 50% 50%; 
@@ -312,5 +327,20 @@ hr {
     background: transparent;
     border-radius:5px ;    
 }
+.ProLi{
+    display: grid;
+    resize: both;
+    grid:subgrid;
+    grid-template-columns: 100%; 
+    grid-template-rows: 100%;
+    margin:10px;
+}
 
+.projectCard{
+    display: grid;
+    resize: both;
+    background: white;
+    width: 100%;
+    height: 100%;
 
+}
