@@ -223,13 +223,13 @@ button{
     display: grid;
     resize: both;
     grid-template-columns: 100%;
-    grid-template-rows: 55% 20% 20%;
+    grid-template-rows: 50% 10% 30%;
 }
 .MainAnn{
     display: grid;
     resize: both;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 70%;
+    grid-template-rows: 10% 90%;
     grid-gap:5px;
 }
 .Announcements{
