@@ -157,6 +157,7 @@ input{
     background: rgb(202, 201, 201);
     border-radius: 25px;
     height: 25px;
+    border: none;
 }
 .logo2{
     display: grid;
