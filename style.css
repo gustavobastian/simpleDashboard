@@ -161,7 +161,10 @@ input{
 .logo2{
     display: grid;
     resize: both;
-    background-color: aqua;
+    content:" ";
+    background: url("./img/rabbit.jpg");
+    background-size:cover;
+    position:relative;
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -429,7 +432,10 @@ hr {
 .logo1{
     display: grid;
     resize: both;
-    background-color: aqua;
+    content:" ";
+    background: url("./img/dog1.jpg");
+    background-size:cover;
+    position:relative;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -439,7 +445,10 @@ hr {
 .logo2{
     display: grid;
     resize: both;
-    background-color: rgb(0, 255, 13);
+    content:" ";
+    background: url("./img/rabbit.jpg");
+    background-size:cover;
+    position:relative;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -449,7 +458,10 @@ hr {
 .logo3{
     display: grid;
     resize: both;
-    background-color: rgb(212, 0, 255);
+    content:" ";
+    background: url("./img/parrot.jpg");
+    background-size:cover;
+    position:relative;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -459,7 +471,10 @@ hr {
 .logo4{
     display: grid;
     resize: both;
-    background-color: rgb(0, 17, 255);
+    content:" ";
+    background: url("./img/cat.jpg");
+    background-size:cover;
+    position:relative;
     width: 30px;
     height: 30px;
     border-radius: 50%;
