@@ -223,12 +223,14 @@ button{
     display: grid;
     resize: both;
     grid-template-columns: 100%;
-    grid-template-rows: 70% 20% 10%;
+    grid-template-rows: 55% 20% 20%;
 }
 .MainAnn{
     display: grid;
     resize: both;
     grid-template-columns: 100%;
+    grid-template-rows: 10% 70%;
+    grid-gap:5px;
 }
 .Announcements{
     display: grid;
@@ -253,7 +255,7 @@ button{
     font-weight: bold;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    height: 20px;
+    height: auto;
 }
 hr {
     display: block;
@@ -316,7 +318,7 @@ hr {
     display: grid;
     resize: both;     
     grid-template-columns: 100%; 
-    grid-template-rows: 10% 90%; 
+    grid-template-rows: 3% 92%; 
     
     
 }
