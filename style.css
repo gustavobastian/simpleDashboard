@@ -39,6 +39,7 @@ ul{
     grid-column: 2 / 2;
     grid-row: 1 / 1;
     margin-bottom: 25px;
+    
 }
 .sidebar{
     display:grid;
@@ -101,6 +102,7 @@ ul{
     text-align: left;
     grid-template-columns:subgrid;
     grid-template-rows:subgrid;
+    
 }
 .altIcons{
     display: grid;
@@ -214,6 +216,7 @@ button{
     padding-right: 10px;
     margin-right: 10px;
     grid-template-columns: 70% 30%;
+    box-shadow: 0px -2px 10px 0px gray;
 }
 .PTitle{
     display: grid;
@@ -228,12 +231,14 @@ button{
     resize: both;
     grid-template-columns: 100%;
     grid-template-rows: 50% 10% 30%;
+    
 }
 .MainAnn{
     display: grid;
     resize: both;
     grid-template-columns: 100%;
     grid-template-rows: 10% 90%;
+    
     grid-gap:5px;
 }
 .Announcements{
@@ -244,6 +249,7 @@ button{
     background: white;
     border-radius:5px ;
     padding:10px 10px;
+    box-shadow: 0px 2px 5px 0px gray;
 }
 .AnnList{
     display: grid;
@@ -251,6 +257,7 @@ button{
     grid-template-columns: 100%;
     grid-template-rows: auto;
     padding-left:0;
+    
 }
 .AnnTitle{
     display:grid;
@@ -304,6 +311,7 @@ hr {
     border-radius:5px ;    
     padding-top:0px;
     margin-top:0px;
+    box-shadow: 0px 2px 5px 0px gray;
 }
 .TrenUl{
     display:grid;
@@ -313,10 +321,7 @@ hr {
     padding-bottom:10%;
     padding-top:10%;
 }
-.TrenLi{
-    display:grid;
-    resize: both;    
-}
+
 
 .projects{
     display: grid;
@@ -352,6 +357,7 @@ hr {
     margin:10px;
     background: rgb(247, 195, 131);
     border-radius: 15px;
+    box-shadow: 0px 2px 5px 0px gray;
 }
 
 .proTitle{
@@ -405,12 +411,7 @@ hr {
     display: grid;
     resize: both;
 }
-.TrenUl{
-    display: grid;
-    resize: both;
-    grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
-}
+
 .TrenLi{
     display: grid;
     resize: both;
