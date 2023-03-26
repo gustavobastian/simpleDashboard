@@ -396,3 +396,42 @@ hr {
     grid-template-columns: 100%;
     grid-template-rows: 20% 60% 10%;
 }
+
+.Trending{
+    display: grid;
+    resize: both;
+}
+.TrenUl{
+    display: grid;
+    resize: both;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.TrenLi{
+    display: grid;
+    resize: both;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+.innerTrenli{
+    display: grid;
+    resize: both;
+    grid-template-columns: 20% 50%;
+    grid-template-rows: 100%;
+    font-size: 10px;
+
+}
+.trenName{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.logo1{
+    display: grid;
+    resize: both;
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;    
+}
