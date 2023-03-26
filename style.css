@@ -4,18 +4,19 @@
 }
 .container{
     display: grid;
-    width: 100%;
-    height: VH;
+    resize: both;
+    width: 1200px;       
+    height: 800px;       
     grid-template-columns: 30% 70%;
     grid-template-rows: 20% 80%;
     
 }
-li{
+.mainN{
     display:grid;   
     resize: both;
     margin-left: 0 px!important;
     padding-left: 0 px!important;
-    height: 30px;
+    height: 35px;
 }
 ul{
     display:grid;
@@ -127,7 +128,7 @@ ul{
 .firstLineHeader{
     display:grid;
     resize: both;
-    grid-template-columns: 5% 45% 15% 5% 10% 20%  ;
+    grid-template-columns: 5% 45% 27% 3% 5% 15%  ;
     padding-left: 25px;
 }
 .secondLineHeader{
@@ -136,12 +137,20 @@ ul{
     grid-template-columns: 5% 45% 10% 12% 12% 12% 3% ;
     padding-top: 10px;
     padding-left: 25px;
+    padding-bottom: 25px;
+}
+.iconClass{
+    display: grid;
+    resize: both;
+    padding-top: 2px;
+    margin-top: 5px;
 }
 input{
     display: grid;
     resize: both;
     background: rgb(202, 201, 201);
     border-radius: 15px;
+    height: 48px;
 }
 .logo2{
     display: grid;
@@ -157,9 +166,22 @@ input{
     display: grid;
     resize: both;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 5px;
     padding-left: 0;    
+}
+.hiThere{
+    font-weight: bold;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.username2{
+    display: grid;
+    resize: both;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 10px;    
 }
 button{
     background: rgb(73, 173, 240);    
@@ -172,10 +194,122 @@ button{
     border-radius: 35px;
     border-style: solid;
     border-color: white;
+    height: 48px;
 }
 .mainContent{
-    margin-top: 10px;
     display: grid;
     resize: both;
+    margin-top: 10px;
+    padding: 0px 10px;    
     grid-template-columns: 80% 20%;
 }
+.PTitle{
+    display: grid;
+    resize: both;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: left;
+}
+.others{
+    display: grid;
+    resize: both;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 20% 10%;
+}
+.MainAnn{
+    display: grid;
+    resize: both;
+    grid-template-columns: 100%;
+}
+.Announcements{
+    display: grid;
+    resize: both;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    background: white;
+    border-radius:5px ;
+    padding:10px 10px;
+}
+.AnnList{
+    display: grid;
+    resize: both;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    padding-left:0;
+}
+.AnnTitle{
+    display:grid;
+    resize: both;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 25px;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+.TextInside{
+    display:grid;
+    resize: both;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 10px;
+}
+.lInside{
+    display:grid;
+    resize: both;
+}
+
+.MainTren{
+    display:grid;
+    resize: both;
+    margin-bottom: 0px;       
+}
+.PTTitle{
+    display: grid;
+    resize: both;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: left;
+}
+.Trending{
+    display: grid;
+    resize: both;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    background: white;
+    border-radius:5px ;    
+    padding-top:0px;
+    margin-top:0px;
+}
+.TrenUl{
+    display:grid;
+    resize: both;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    padding-bottom:10%;
+    padding-top:10%;
+}
+.TrenLi{
+    display:grid;
+    resize: both;
+}
+.ProjectList{
+    display: grid;
+    resize: both;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 33% 33% 33%;
+    background: transparent;
+    border-radius:5px ;    
+}
+
+
