@@ -204,7 +204,7 @@ button{
     padding: 0px 10px;    
     padding-right: 10px;
     margin-right: 10px;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
 }
 .PTitle{
     display: grid;
@@ -248,7 +248,7 @@ button{
     font-weight: bold;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    height: 25px;
+    height: 20px;
 }
 hr {
     display: block;
